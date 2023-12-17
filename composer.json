@@ -1,0 +1,22 @@
+{
+    "require": {
+        "symfony/finder": "^6.1",
+        "laminas/laminas-config": "^3.8",
+        "laminas/laminas-servicemanager": "^3.19",
+        "laminas/laminas-router": "^3.10",
+        "twig/twig": "^3.0",
+        "laminas/laminas-db": "^2.15",
+        "laminas/laminas-hydrator": "^4.7",
+        "laminas/laminas-log": "^2.15",
+        "doctrine/dbal": "^3.6",
+        "slim/slim": "3.*",
+        "openswoole/core": "^22.1"
+    },
+	"autoload": {
+		"psr-4": {
+			"AfifWork\\MVC\\": "src/afifwork/mvc/",
+			"AfifWork\\Account\\": "src/afifwork/account/",
+			"AfifWork\\Slim\\": "src/afifwork/slim/"
+		}
+	}
+}
